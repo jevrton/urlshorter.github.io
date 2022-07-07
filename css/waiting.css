@@ -1,0 +1,37 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+} 
+
+/* CONTAINER */
+.container {
+    margin: auto;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* FOOTER */
+.footer-text {
+    font-family: 'Lato', sans-serif;
+    color: red;
+}
+
+.hiperlink {
+    text-decoration: none;
+    color: #ffa54a;
+}
+
+.hiperlink:hover {
+    color: #ffce8b;
+}
